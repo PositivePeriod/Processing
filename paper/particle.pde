@@ -1,5 +1,5 @@
 class Particle{
-    private PVector prevPos, pos, vel;
+    private PVector prevPos, pos, vel, acc;
     private float m = 100;
     private float maxSpeed = 10;
     private float boundary = 10;

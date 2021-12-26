@@ -3,3 +3,18 @@ https://www.lib.ncsu.edu/codeart/resources
 https://sites.google.com/site/artwithprocessing/03-2017nyeon-1haggi-sungsildaehaggyo-daehag-won-midieohaggwa-bijueol-eon-eomichmidieo-gang-ui
 
 https://github.com/processing/processing4/releases/tag/processing-1277-4.0b2
+
+INTEGER
+float f5 = 5;
+float f2 = 2;
+int i5 = 5;
+int i2 = 2;
+float x1 = f5/f2; println(x1);
+float x2 = f5/i2; println(x2);
+float x3 = i5/f2; println(x3);
+float x4 = i5/i2; println(x4);
+
+// int x5 = f5/f2; println(x5); => Error
+// int x6 = f5/i2; println(x6); => Error
+// int x7 = i5/f2; println(x7); => Error
+int x8 = i5/i2; println(x8);
